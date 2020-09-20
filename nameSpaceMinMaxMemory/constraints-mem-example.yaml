@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2020-09-20T01:41:43Z"
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:phase: {}
+    manager: kubectl-create
+    operation: Update
+    time: "2020-09-20T01:41:43Z"
+  name: constraints-mem-example
+  resourceVersion: "1130541"
+  selfLink: /api/v1/namespaces/constraints-mem-example
+  uid: d8979ddf-fe82-4ac9-adad-6282c970c975
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
